@@ -1,0 +1,28 @@
+{
+  "name": "meti",
+  "version": "1.0.0",
+  "description": "Proyecto Con Node PostgreSQL Y EJS",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon './index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kuteji/meti_course.git"
+  },
+  "author": "Edgar Eduardo Talavera Contreras",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Kuteji/meti_course/issues"
+  },
+  "homepage": "https://github.com/Kuteji/meti_course#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  },
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "ejs": "^3.0.2",
+    "express": "^4.17.1",
+    "express-ejs-layouts": "^2.5.0"
+  }
+}
